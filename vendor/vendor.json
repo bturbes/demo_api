@@ -1,0 +1,39 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "get",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "g/V4qrXjUGG9B+e3hB+4NAYJ5Gs=",
+			"path": "github.com/gorilla/context",
+			"revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
+			"revisionTime": "2016-08-17T18:46:32Z"
+		},
+		{
+			"checksumSHA1": "F5dR3/i70EhSIMZfeIV+H8/PtvM=",
+			"path": "github.com/gorilla/mux",
+			"revision": "94e7d24fd285520f3d12ae998f7fdd6b5393d453",
+			"revisionTime": "2017-02-17T19:26:16Z"
+		},
+		{
+			"checksumSHA1": "Y3U6on66N0BszKXYvb2Q+qpG6f4=",
+			"path": "github.com/julienschmidt/httprouter",
+			"revision": "8a45e95fc75cb77048068a62daed98cc22fdac7c",
+			"revisionTime": "2017-01-04T18:58:16Z"
+		},
+		{
+			"checksumSHA1": "ezZyPBDiKHM5y+YmlIhrWIzgbfw=",
+			"path": "github.com/urfave/negroni",
+			"revision": "61dbefc515b4dede6eb2de7df1e54d49edce892d",
+			"revisionTime": "2017-01-27T05:19:55Z"
+		},
+		{
+			"path": "go",
+			"revision": ""
+		}
+	],
+	"rootPath": "github.com/bturbes/ben_api"
+}

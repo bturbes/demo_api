@@ -1,0 +1,5 @@
+FROM alpine:3.4
+
+COPY ./demo_api /opt/demo_api
+
+CMD [ "/opt/demo_api" ]
