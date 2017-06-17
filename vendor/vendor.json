@@ -7,16 +7,10 @@
 			"revision": ""
 		},
 		{
-			"checksumSHA1": "g/V4qrXjUGG9B+e3hB+4NAYJ5Gs=",
-			"path": "github.com/gorilla/context",
-			"revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
-			"revisionTime": "2016-08-17T18:46:32Z"
-		},
-		{
-			"checksumSHA1": "F5dR3/i70EhSIMZfeIV+H8/PtvM=",
-			"path": "github.com/gorilla/mux",
-			"revision": "94e7d24fd285520f3d12ae998f7fdd6b5393d453",
-			"revisionTime": "2017-02-17T19:26:16Z"
+			"checksumSHA1": "GXOurDGgsLmJs0wounpdWZZRSGw=",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "a539ee1a749a2b895533f979515ac7e6e0f5b650",
+			"revisionTime": "2017-06-08T00:51:49Z"
 		},
 		{
 			"checksumSHA1": "Y3U6on66N0BszKXYvb2Q+qpG6f4=",
@@ -25,10 +19,22 @@
 			"revisionTime": "2017-01-04T18:58:16Z"
 		},
 		{
-			"checksumSHA1": "dxyBJGenFY1xTwRhwsfNCecl8wI=",
+			"checksumSHA1": "il9DySO70oJN/my1l4T9jiO/j6U=",
 			"path": "github.com/labstack/echo",
-			"revision": "a8cd0ad13380c5ba3b0a338aa1cd10528b8d3282",
-			"revisionTime": "2017-06-03T00:55:59Z"
+			"revision": "7834248244eacccbd6853a9cf98d072403446865",
+			"revisionTime": "2017-06-07T18:10:09Z"
+		},
+		{
+			"checksumSHA1": "yq1PrdRDRpnsi5gWEQRcjvfehi8=",
+			"path": "github.com/labstack/echo/middleware",
+			"revision": "7834248244eacccbd6853a9cf98d072403446865",
+			"revisionTime": "2017-06-07T18:10:09Z"
+		},
+		{
+			"checksumSHA1": "NvfQq6Y6kh9cMw+y1m00ivEd5b4=",
+			"path": "github.com/labstack/gommon/bytes",
+			"revision": "1121fd3e243c202482226a7afe4dcd07ffc4139a",
+			"revisionTime": "2017-05-06T16:25:42Z"
 		},
 		{
 			"checksumSHA1": "R6DzcBLEP0BONPpsyr+11N7xh5w=",
@@ -39,6 +45,12 @@
 		{
 			"checksumSHA1": "uHA6zbtxzJce4r+6uk8zu11qkuk=",
 			"path": "github.com/labstack/gommon/log",
+			"revision": "1121fd3e243c202482226a7afe4dcd07ffc4139a",
+			"revisionTime": "2017-05-06T16:25:42Z"
+		},
+		{
+			"checksumSHA1": "lW02E/TGpV59u9q49TsK0Cmva0c=",
+			"path": "github.com/labstack/gommon/random",
 			"revision": "1121fd3e243c202482226a7afe4dcd07ffc4139a",
 			"revisionTime": "2017-05-06T16:25:42Z"
 		},
