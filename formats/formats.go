@@ -1,9 +1,10 @@
 package formats
 
 import (
-	"encoding/json"
 	"encoding/xml"
 	"net/http"
+
+	"github.com/labstack/echo"
 )
 
 type sampleStruct struct {
@@ -14,14 +15,12 @@ type sampleStruct struct {
 }
 
 // SampleData renders
-func SampleData(w http.ResponseWriter, r *http.Request) {
-	format := r.URL.Query().Get("format")
+func SampleData(c echo.Context) error {
+	format := c.QueryParam("format")
 	sample := sampleStruct{ID: 1, Value: "I hope this works.", List: []string{"test", "123", "lol"}}
 
 	if format == "xml" {
-		xml.NewEncoder(w).Encode(sample)
-	} else {
-		json.NewEncoder(w).Encode(sample)
+		return c.XML(http.StatusOK, sample)
 	}
-
+	return c.JSON(http.StatusOK, sample)
 }
