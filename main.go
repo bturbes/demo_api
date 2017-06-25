@@ -30,8 +30,3 @@ func main() {
 func Index(c echo.Context) error {
 	return c.String(http.StatusOK, "Welcome to Ben's API of sorts!")
 }
-
-// AllowedOrigins sets Access-Control-Allow-Origin
-func AllowedOrigins(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Access-Control-Allow-Origin", "*")
-}
