@@ -13,6 +13,24 @@
 			"revisionTime": "2017-06-08T00:51:49Z"
 		},
 		{
+			"checksumSHA1": "uvWzKxIhqD5JzlQ7pxYlbV4kBbY=",
+			"path": "github.com/jinzhu/gorm",
+			"revision": "eae7f6be603af3190e032fe3c4d465ddaf6ea3d4",
+			"revisionTime": "2017-06-14T08:49:39Z"
+		},
+		{
+			"checksumSHA1": "4VZ1gLZHMumRjV3fclS1aX8S1aQ=",
+			"path": "github.com/jinzhu/gorm/dialects/sqlite",
+			"revision": "eae7f6be603af3190e032fe3c4d465ddaf6ea3d4",
+			"revisionTime": "2017-06-14T08:49:39Z"
+		},
+		{
+			"checksumSHA1": "VIp1lZm6joWhlNdwhady8u//qRw=",
+			"path": "github.com/jinzhu/inflection",
+			"revision": "1c35d901db3da928c72a72d8458480cc9ade058f",
+			"revisionTime": "2017-01-02T12:52:26Z"
+		},
+		{
 			"checksumSHA1": "Y3U6on66N0BszKXYvb2Q+qpG6f4=",
 			"path": "github.com/julienschmidt/httprouter",
 			"revision": "8a45e95fc75cb77048068a62daed98cc22fdac7c",
@@ -67,6 +85,12 @@
 			"revisionTime": "2017-03-22T23:44:13Z"
 		},
 		{
+			"checksumSHA1": "yf1RvNZJFYMXE8QWmklusKVq4Jw=",
+			"path": "github.com/mattn/go-sqlite3",
+			"revision": "afe454f6220b3972691678af2c5579781563183f",
+			"revisionTime": "2017-06-21T01:05:20Z"
+		},
+		{
 			"checksumSHA1": "ezZyPBDiKHM5y+YmlIhrWIzgbfw=",
 			"path": "github.com/urfave/negroni",
 			"revision": "61dbefc515b4dede6eb2de7df1e54d49edce892d",
@@ -99,6 +123,12 @@
 			"path": "golang.org/x/crypto/acme/autocert",
 			"revision": "e1a4589e7d3ea14a3352255d04b6f1a418845e5e",
 			"revisionTime": "2017-05-23T23:42:09Z"
+		},
+		{
+			"checksumSHA1": "Y+HGqEkYM15ir+J93MEaHdyFy0c=",
+			"path": "golang.org/x/net/context",
+			"revision": "5f8847ae0d0e90b6a9dc8148e7ad616874625171",
+			"revisionTime": "2017-06-23T17:10:45Z"
 		},
 		{
 			"checksumSHA1": "PugQbLLjnbBSj+NOXRYBVRnLuuQ=",
