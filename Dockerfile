@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang
 
 RUN mkdir -p /go/src/github.com/bturbes/demo_api
 WORKDIR /go/src/github.com/bturbes/demo_api
