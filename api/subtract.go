@@ -1,10 +1,10 @@
-package math
+package api
 
 import (
 	"net/http"
 	"strconv"
 
-	"github.com/labstack/echo"
+	"github.com/gin-gonic/gin"
 )
 
 // SubtractResponse holds the JSON response for calls to the Subtract API.
@@ -16,22 +16,24 @@ type SubtractResponse struct {
 }
 
 // Subtract some numbers
-func Subtract(c echo.Context) error {
+func Subtract(c *gin.Context) {
 	subResp := SubtractResponse{}
 
 	a, err := strconv.ParseFloat(c.Param("a"), 64)
 	if err != nil {
 		subResp.Error = "First value was not a number."
-		return c.JSON(http.StatusBadRequest, subResp)
+		c.JSON(http.StatusBadRequest, subResp)
+		return
 	}
 
 	b, err := strconv.ParseFloat(c.Param("b"), 64)
 	if err != nil {
 		subResp.Error = "Second value was not a number."
-		return c.JSON(http.StatusBadRequest, subResp)
+		c.JSON(http.StatusBadRequest, subResp)
+		return
 	}
 	subResp.A = a
 	subResp.B = b
 	subResp.Result = a - b
-	return c.JSON(http.StatusOK, subResp)
+	c.JSON(http.StatusOK, subResp)
 }

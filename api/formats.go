@@ -1,10 +1,10 @@
-package formats
+package api
 
 import (
 	"encoding/xml"
 	"net/http"
 
-	"github.com/labstack/echo"
+	"github.com/gin-gonic/gin"
 )
 
 type sampleStruct struct {
@@ -15,12 +15,13 @@ type sampleStruct struct {
 }
 
 // SampleData renders
-func SampleData(c echo.Context) error {
-	format := c.QueryParam("format")
+func SampleData(c *gin.Context) {
+	format := c.Query("format")
 	sample := sampleStruct{ID: 1, Value: "I hope this works.", List: []string{"test", "123", "lol"}}
 
 	if format == "xml" {
-		return c.XML(http.StatusOK, sample)
+		c.XML(http.StatusOK, sample)
+		return
 	}
-	return c.JSON(http.StatusOK, sample)
+	c.JSON(http.StatusOK, sample)
 }
