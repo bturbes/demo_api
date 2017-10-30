@@ -1,9 +1,5 @@
-FROM golang
+FROM debian:stable-slim
 
-RUN mkdir -p /go/src/github.com/bturbes/demo_api
-WORKDIR /go/src/github.com/bturbes/demo_api
+COPY bin/demo_api.linux /usr/local/bin/demo_api
 
-COPY . /go/src/github.com/bturbes/demo_api
-RUN go build
-
-CMD [ "demo_api" ]
+CMD [ "/usr/local/bin/demo_api" ]
