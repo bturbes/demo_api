@@ -1,0 +1,46 @@
+hash: 081b3c9b4ccc233a3eb86343946e017b1899463fd0da3168010174027c24438b
+updated: 2017-10-29T19:04:39.706657852-05:00
+imports:
+- name: github.com/dgrijalva/jwt-go
+  version: dbeaa9332f19a944acb5736b4456cfcc02140e29
+- name: github.com/jinzhu/gorm
+  version: 0a51f6cdc55d1650d9ed3b4c13026cfa9133b01e
+  subpackages:
+  - dialects/sqlite
+- name: github.com/jinzhu/inflection
+  version: 1c35d901db3da928c72a72d8458480cc9ade058f
+- name: github.com/labstack/echo
+  version: b28538b2e3f5446fe6e0e47ee34cd74b662ca2ab
+  subpackages:
+  - middleware
+- name: github.com/labstack/gommon
+  version: 57409ada9da0f2afad6664c49502f8c50fbd8476
+  subpackages:
+  - bytes
+  - color
+  - log
+  - random
+- name: github.com/mattn/go-colorable
+  version: ad5389df28cdac544c99bd7b9161a0b5b6ca9d1b
+- name: github.com/mattn/go-isatty
+  version: a5cdd64afdee435007ee3e9f6ed4684af949d568
+- name: github.com/mattn/go-sqlite3
+  version: 615c193e01d8d462eef7ee390171506f531a1c9a
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: 2509b142fb2b797aa7587dad548f113b2c0f20ce
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: c73622c77280266305273cb545f54516ced95b93
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: 661970f62f5897bc0cd5fdca7e087ba8a98a8fa1
+  subpackages:
+  - unix
+testImports: []

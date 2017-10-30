@@ -1,0 +1,8 @@
+package: github.com/bturbes/demo_api
+import:
+- package: github.com/jinzhu/gorm
+  subpackages:
+  - dialects/sqlite
+- package: github.com/labstack/echo
+  subpackages:
+  - middleware
